@@ -20,7 +20,7 @@
 	"homepage": "https://github.com/LambdaSchool/Sprint-Challenge--Testing#readme",
 	"dependencies": {
 		"express": "^4.16.4",
-		"knex": "*",
+		"knex": "^0.16.5",
 		"node": "*",
 		"nodemon": "*",
 		"react": "*",
