@@ -17,3 +17,12 @@ server.get('/games', async (req, res) => {
 
     res.status(200).json(rows);
 })
+
+// Add a new game
+
+server.post('/games', (req, res) => {
+    const { title, genre, releaseYear} = req.body;
+    if(!title || !genre || !releaseYear){
+        
+    }
+})
