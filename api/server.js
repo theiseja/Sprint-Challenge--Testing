@@ -36,3 +36,5 @@ server.post('/games', (req, res) => {
 			res.status(422).json(error);
 		});
 });
+
+module.exports = server;
